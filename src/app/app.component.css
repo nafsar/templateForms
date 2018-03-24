@@ -1,0 +1,116 @@
+.angular {
+    display: block;
+    width: 45px;
+    height: 45px;
+    background-image: url(../assets/images/angular.png);
+}
+.ang-text {
+    padding: 4px;
+    font-size: 18px;
+    font-weight: bold;
+  
+}
+.ang-form {
+    margin: 20px 20px 20px 0;
+    width: 260px;
+    border: solid 0px #000;
+    display: flex;
+}
+.button.disabled,
+.button.disabled:focus,
+.button.disabled:hover,
+.button[disabled],
+.button[disabled]:focus,
+.button[disabled]:hover {
+    background-color: red;
+    color: #ffffff;
+    font-size: 16px;
+}
+.button.disabled,
+.button[disabled] {
+    opacity: .25;
+    cursor: not-allowed;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+.button[_ngcontent-c0] {
+    margin-top: 3rem;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+.button {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 1rem;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: .85em 1em;
+    -webkit-appearance: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    -webkit-transition: background-color .25s ease-out, color .25s ease-out;
+    transition: background-color .25s ease-out, color .25s ease-out;
+    font-size: .9rem;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    /* background-color: #1779ba; */
+    background-color: green;
+    color: #fefefe;
+    font-size: 16px;
+}
+
+[type="button"],
+[type="submit"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+}
+.ng-valid[required], .ng-valid.required  {
+    border-left: 5px solid #42A948; /* green */
+  }
+  
+  .ng-invalid:not(form)  {
+    border-left: 15px solid #a94442; /* red */
+    border-right:   45px solid #a94442;
+  }
+
+.alert {
+    padding: 15px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  .sim-server {
+    margin: 20px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+.sim-lnk {
+    margin: 20px;
+    text-decoration: none;
+    padding: 20px;
+}
+.font-weight-bold {
+    font-weight: bold;
+}
+
+  
